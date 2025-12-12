@@ -1,0 +1,4 @@
+Raw data for this project can be downloaded from the NASA Prognostics Data Repository:
+https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/
+
+Download the "Battery Data Set" and extract the .mat files into this directory (data/RawData/).

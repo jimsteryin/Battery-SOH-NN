@@ -1,10 +1,12 @@
 # Data
-data/
+data/*
+!data/dataset_info.txt
 *.mat
 
-#checkpoints
-checkpoints/
-*.pth
+# Models and Checkpoints
+checkpoints/*
+!checkpoints/*.pth
+!checkpoints/scaler.pkl
 *.pkl
 
 # Environments and System
