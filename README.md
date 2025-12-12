@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Battery-SOH-NN
 Use a neural network to predict battery soh
 =======
