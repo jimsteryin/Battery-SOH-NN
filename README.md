@@ -1,7 +1,4 @@
-# Battery-SOH-NN
-Use a neural network to predict battery soh
-=======
-# Battery SOH Prediction Project
+# Battery-SOH-NN - Use a neural network to predict battery soh
 
 This final project was completed as a part of EEP596: Practical Introduction to Deep Learning Applications and Theory
 Taught at the University of Washington, Autumn Quarter 2025
