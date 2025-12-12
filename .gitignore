@@ -1,0 +1,22 @@
+# Data
+data/
+*.mat
+
+#checkpoints
+checkpoints/
+*.pth
+*.pkl
+
+# Environments and System
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+
+# Archive/Unused
+unused/
+archive/
