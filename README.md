@@ -11,6 +11,8 @@ This project attempts to predicts the State of Health (SOH) of Li-ion batteries 
 
 The goal is to accurately estimate battery health without needing full discharge cycles, enabling faster diagnostics.
 
+Battery SOH is defined as the ratio of the remaining capacity (Ah) to the initial capacity (Ah).
+
 The motivation for this project arose from prior work experience within Data Centers and the critical UPS systems that operate within.
 
 34 Batteries were split into 80/20 train/validate, and test
@@ -39,11 +41,10 @@ In hindsight, these previous learnings should have been integrated before starti
 │   ├── main.py         # Entry point for training models
 │   ├── utils.py        # Data loading, preprocessing, feature extraction
 │   └── model.py        # PyTorch model definitions (SOHNet, SOHGRU)
-├── data/               # Raw battery data (.mat files)
-├── checkpoints/        # Saved models and scalers
+├── data/               # Link to raw battery data (NASA Prognostics Data Repository)
+├── checkpoints/        # Saved models
 ├── demo/               # Demo script
 ├── results/            # Generated plots and visualizations
-└── unused/             # Archived scripts from development
 ```
 
 ## Setup Instructions
@@ -125,6 +126,3 @@ A recurrent neural network designed to capture temporal dynamics from raw sequen
 ## Acknowledgments
 - **Dataset**: NASA Prognostics Data Repository (Battery Data Set). https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/
 - **B. Saha and K. Goebel (2007). “Battery Data Set”, NASA Prognostics Data Repository, NASA Ames Research Center, Moffett Field, CA**
-
-
->>>>>>> ae85c4b (Initial commit)
